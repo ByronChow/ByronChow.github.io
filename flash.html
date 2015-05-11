@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Communist Product Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+#autocolor{
+	width: 300px;
+	height: 400px;
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	padding: 0.75em 0.75em 0;
+	text-align: center;
+	font: bold;
+	float:left;
+}
+
+.product{
+	float:left
+}
+	
+	
+</style>
+
+
+
+</head>
+<body>
+<div id="autocolor">
+PRODUCT PAGE &nbsp ->
+</div>
+
+<script type="text/javascript">
+(function(){
+	var hexacode = ['#F00', '#000'],
+	el = document.getElementById('autocolor').style,
+	counter = -1,
+	hexalen = hexacode.length;
+	function auto(){
+		el.backgroundColor = hexacode[counter = ++counter % hexalen];
+	}
+	setInterval(auto, 50);
+})();
+</script>
+
+<a href='' onclick='newWindow()'><img class="product" src='images/sovietcheshirt.jpg' style="height:400px"> </a>
+<a href='' onclick='newWindow()'><img class="product" src='images/sovietmaoshirt.jpg' style="height:400px"> </a>
+<a href='' onclick='newWindow()'><img class="product" src='images/sovietleninpin.jpg' style="height:400px"> </a>
+</body>
+</html>

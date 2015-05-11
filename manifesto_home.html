@@ -1,0 +1,613 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Communist Manifesto</title>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="jquery-ui-1.11.1/jquery-ui.css"/>
+<script type="text/javascript" src="jquery-ui-1.11.1/external/jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery-ui-1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="css-pop.js"></script>
+
+<!-- NEW WINDOWS OPEN -->
+
+<script>
+function newWindow() {
+    winPop = [
+        open(
+            'industrial.html',
+            'window1',
+            'scrollbars=no,width=590,height=270,left=780,top=50'
+        ),
+        open(
+            'plato.html',
+            'window2',
+            'scrollbars=no,width=55,height=70,left=50,top=250'
+        ),
+        open(
+            'hegel.html',
+            'window3',
+            'scrollbars=no,width=490,height=260,left=330,top=520'
+       ),
+	   open(
+            'http://burymewithmymoney.com',
+            'window4',
+            'scrollbars=no,width=550,height=355,left=550,top=250'
+       ), ];}
+	   
+</script>
+
+<script>
+function newWindow2() {
+    winPop = [
+        open(
+            'http://en.wikipedia.org/wiki/Communism',
+            'window5',
+            'scrollbars=no,width=1100,height=800,left=600,top=400,'
+        ),
+		 ];}
+	   
+</script>
+
+<script>
+function newWindow3() {
+    winPop = [
+        open(
+            'chinaflag.html',
+            'window6',
+            'scrollbars=no,width=350,height=250,left=990,top=560'
+        ),
+		open(
+            'sovietflag.html',
+            'window7',
+            'scrollbars=no,width=350,height=250,left=70,top=420'
+        ), 
+		open(
+            'cubaflag.html',
+            'window8',
+            'scrollbars=no,width=350,height=250,left=770,top=70'
+        ), ];}
+	   
+</script>
+<script>
+function newWindow5() {
+    winPop = [
+        open(
+            'commproduct.html',
+            'window9',
+            'scrollbars=no,width=675,height=450,left=500,top=20'
+        ), 
+	
+		 ];}
+	   
+</script>
+<script>
+function newWindow6() {
+    winPop = [
+        open(
+            'http://en.wikipedia.org/wiki/Karl_Marx',
+            'window10',
+            'scrollbars=no,width=640,height=600,left=750,top=70'
+        ), 
+		open(
+            'communistassociation.html',
+            'window11',
+            'scrollbars=no,width=370,height=370,left=100,top=400'
+        ), 
+		open(
+            'plato.html',
+            'window12',
+            'scrollbars=no,width=55,height=70,left=30,top=350'
+			), 
+		open(
+            'commzine.html',
+            'window13',
+            'scrollbars=no,width=390,height=150,left=580,top=210'
+        ), ];}
+	   
+</script>
+<script>
+function newWindow7() {
+    winPop = [
+        open(
+            'http://en.wikipedia.org/wiki/Friedrich_Engels',
+            'window13',
+            'scrollbars=no,width=850,height=650,left=500,top=0'
+        ), 
+		open(
+            'industrial.html',
+            'window15',
+            'scrollbars=no,width=600,height=315,left=40,top=140'
+			), 
+		open(
+            'hegel.html',
+            'window14',
+            'scrollbars=no,width=490,height=310,left=350,top=440'
+        ),
+		open(
+            'sovietflag.html',
+            'window16',
+            'scrollbars=no,width=350,height=250,left=980,top=300'
+        ),
+		open(
+		'plato.html',
+            'window17',
+            'scrollbars=no,width=55,height=70,left=1020,top=570'
+			),
+		 ];}
+	   
+</script>
+<script>
+function newWindow8() {
+    winPop = [
+        open(
+            'http://burymewithmymoney.com',
+            'window17',
+            'scrollbars=no,width=600,height=400,left=730,top=440'
+        ), 
+		open(
+            'commproduct.html',
+            'window18',
+            'scrollbars=no,width=675,height=450,left=30,top=95'
+        ), 
+		open(
+            'hegel.html',
+            'window19',
+            'scrollbars=no,width=490,height=310,left=640,top=330'
+        ),
+		open(
+            'plato.html',
+            'window21',
+            'scrollbars=no,width=55,height=70,left=170,top=550'
+        ),
+		 ];}
+	   
+</script>
+<script>
+function newWindow9() {
+    winPop = [
+        open(
+            'plato.html',
+            'window20',
+            'scrollbars=no,width=55,height=70,left=50,top=250'
+        ),
+		open(
+            'hegel.html',
+            'window21',
+            'scrollbars=no,width=490,height=310,left=330,top=520'
+        ), 
+		open(
+            'communistassociation.html',
+            'window22',
+            'scrollbars=no,width=370,height=320,left=580,top=210'
+        ), ];}
+	   
+</script>
+<!-- PROJECTS DRAGGABLE -->
+
+    <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDivtop").draggable();
+
+$('#popUpDivtop').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+ <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv5").draggable();
+
+$('#popUpDiv5').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+ <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv6").draggable();
+
+$('#popUpDiv6').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+ <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv7").draggable();
+
+$('#popUpDiv7').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+<script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv8").draggable();
+
+$('#popUpDiv8').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+<script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv9").draggable();
+
+$('#popUpDiv9').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+
+    <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv4").draggable();
+
+$('#popUpDiv4').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+
+    <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv3").draggable();
+
+$('#popUpDiv3').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+
+    
+    <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv2").draggable();
+
+$('#popUpDiv2').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+
+    <script type="text/javascript">
+  $("document").ready(function() {
+    $("#popUpDiv").draggable();
+
+$('#popUpDiv2').each(function(i,el){
+
+    var tLeft = Math.floor(Math.random()*500),
+        tTop  = Math.floor(Math.random()*500);
+
+    $(el).css({position:'absolute', left: tLeft, top: tTop});
+});
+});
+</script>
+<style>
+
+body {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight:700;
+	background:#F00;
+}
+
+/*
+    background: ;
+	-webkit-transition: background-color 10000ms linear;
+    -moz-transition: background-color 10000ms linear;
+    -o-transition: background-color 10000ms linear;
+    -ms-transition: background-color 10000ms linear;
+    transition: background-color 10000ms linear;
+*/
+
+ #container {
+	width: 780px;  
+	margin:auto auto; 
+	text-align: left; 
+}
+
+img {border:0px}
+
+/*BUTTONS*/
+
+a:link,a:visited {
+	text-decoration:none;
+	color: #FF0;
+	font-size:30px;
+	font-weight:900;
+	background: none;
+	padding:0px;
+	line-height: 45px;}
+	
+a:hover, a:active {
+	color:#fff;
+	background: #000;}
+
+.body a:link,.body a:visited {
+	text-decoration:none;
+	color: #444;
+	font-size:20px;
+	font-weight:900;
+	background: none;
+	padding:0px;
+	line-height: 22px;}
+	
+.body a:hover, .body a:active {
+	color: #CCC;
+	text-decoration:none;}
+
+/*STYLES FOR CSS POPUP*/
+
+
+#blanket {
+   background:none;
+   position:absolute;
+}
+
+/*OUTER BOX*/
+
+#popUpDiv {
+	position:absolute;
+	background: #FF0;
+	width:100px;
+	height:300px;
+	border:5px solid #FC0;
+} #popUpDiv a {position:relative; top:10px; left:10px}
+
+.indent{
+	font-size: 13px;
+	font-weight:100;
+	padding: 0px 40px 15px 40px;
+	color: #666;
+}
+
+#star{
+	font-family: Helvetica, sans-serif;
+	font-size:218px;
+	font-weight:900;
+	top:-35px;
+	position:absolute;
+}
+
+
+
+#footnote{
+	color: #000;
+	font-size:13px;
+	font-weight:600;
+	left:10px;
+	top:80px;
+	position:absolute;
+}
+
+#popUpDiv2 {
+	position:absolute;
+	background: #000;
+	width:200px;
+	height:180px;
+	padding: 30px 100px 30px 120px;
+	border:0px solid #000;
+} 
+
+div#popUpDiv2:hover{
+    background: url("images/leninbw.jpg");
+	-webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+#reality{
+	font-size:13px;
+	font-weight:900;
+	text-align:left;
+	color: #FFF;
+}
+
+#popUpDiv3 {
+	position:absolute;
+	background: none;
+	width:150px;
+	height:150px;
+} #popUpDiv3 a {position:relative;}
+
+#popUpDiv4 {
+	position:absolute;
+	background: #FFF;
+	padding: 0px 40px 40px 70px;
+	width:510px;
+	height:680px;
+	border:5px solid #F0F0F0;
+} #popUpDiv4 a {position:relative;}
+ /*to edit*/
+ 
+#popUpDiv5 {
+	background: none;
+	width:450px;
+	height:85px;
+	/*border:12px solid #F03;
+	box-shadow: 4px 4px 4px #900;*/
+}
+div#popUpDiv5:hover{
+	/*border:12px solid #C00;*/
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+#prop{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:700;
+	color: #F00;
+	top:-35px;
+	padding: 0px 0px 0px 20px;
+	position:absolute;
+}
+
+
+#popUpDiv6 {
+	position:absolute;
+	background: #C00;
+	border-radius: 7px 7px 0px 0px;
+	width:180px;
+	height:180px;
+	padding: 25px 3px 3px 3px;
+}
+div#popUpDiv6:hover{
+    background: #FFF;
+	-webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+#popUpDiv7 {
+	position:absolute;
+	background: #900;
+	border-radius: 7px 7px 0px 0px;
+	width:420px;
+	height:420px;
+	padding: 25px 3px 3px 3px;
+}
+div#popUpDiv7:hover{
+    background: #FFF;
+	-webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+#popUpDiv8 {
+	position:absolute;
+	background: none;
+	width:800px;
+	height:550px;
+	padding: 25px;
+}
+div#popUpDiv8:hover{
+    background: #900;
+}
+#quote{
+	font-family: Montserrat, Helvetica, sans-serif;
+	padding: 50px 100px;
+	font-size:80px;
+	line-height: 85px;
+	font-weight:700;
+	color: #C00;
+	top:-55px;
+	position:absolute;
+	text-align:center
+}
+
+#popUpDiv9 {
+	position:absolute;
+	background: none;
+	width:140px;
+	height:140px;
+}
+
+#popUpDivtop {
+	position:absolute;
+	background: none;
+	width:220px;
+	height:80px;
+	border: 0px solid #F00;
+} #popUpDivtop a {position:relative;}
+
+
+/*BOXEFFECTS */
+
+</style>
+</head>
+<body>
+
+<div id="blanket" style="display:none;">
+
+<div id="popUpDiv8"><a href='' onclick='newWindow8()'><p id="quote"> "The history of all hitherto society is the history of class struggles"</p></a></div>
+
+<div id="popUpDiv4">
+    
+<div id="wrap"> <a href='' onclick='newWindow4()'><img src='images/group_clicker.gif' style="width:0px;height:0px"></a> </div>
+
+<p class= "body">MAIFESTO OF THE COMMUNIST PARTY</p>
+<p class= "body"><a href="manifesto_book.html#I">I. Bourgeois and Proletarians</a></p>
+<p class= "body"><a  href="manifesto_book.html#II">II. Proletarians and Communists</a></p>
+<p class= "body"><a  href="manifesto_book.html#III">III. Socialist and Communist Literature</a></p>
+<p class= "indent">
+1. Reactionary Socialism<br>
+2. Conservative or Bourgeois Socialism<br>
+3. Critical-Utopian Socialism and Communism</p>
+<p class= "body"><a href="manifesto_book.html#IV">IV. Position of the Communists in Relation to the Various Existing Opposition Parties</a></p> </div>
+
+<div id="popUpDiv3"><a class="body" href='' onclick='newWindow2()'><img src='images/wiki.png' style="width:360px;height:360px"></a></div>
+
+<div id="popUpDiv2"><a href='' onclick='newWindow3()'><img id="redflag"src='images/redstar.png' style="width:180px;height:180px"></a> </div>
+
+<div id="popUpDiv7"><a href='' onclick='newWindow7()'><img id="redflag"src='images/engelsbw.jpg' style="width:420px;height:420px"></a></div>
+
+<div id="popUpDiv6"><a href='' onclick='newWindow6()'><img id="redflag"src='images/marxbw.jpg' style="width:180px;height:180px"></a> </div>
+
+<div id="popUpDiv5"><a href='' onclick='newWindow5()'><img id="redflag"src='images/sovietpin.png' style="width:300px;height:300px"></a> </div>
+
+<div id="popUpDiv9"><a href='' onclick='newWindow9()'><img id="redflag"src='images/sickle.gif' style="width:80px;height:80px"></a> </div>
+
+<div id="popUpDiv" style="display:none;"><p id="footnote"><br>FOOTNOTES</p><a href='' onclick='newWindow()'> <p id="star"> * </p> </a>
+
+</div>	
+
+</div>
+
+<div id="popUpDivtop" >
+    <a href="#" onClick="popup('popUpDiv')" >
+    &nbsp;THE <br>
+    &nbsp;COMMUNIST&nbsp;<br>
+    &nbsp;MANIFESTO&nbsp;
+    </a></div>
+</body>
+</html>
+
+
+
+
+
+

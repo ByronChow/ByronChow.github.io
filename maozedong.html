@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mao Zedong</title>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-weight: 700;
+	background-image: url("images/mao.png");
+	background-color: #F00;
+}
+
+body:hover{
+    background: #900 ;
+	-webkit-transition: background-color 250ms linear;
+    -moz-transition: background-color 250ms linear;
+    -o-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+}
+
+a:link,a:visited {
+	text-decoration:none;
+	color: #F00;
+	font-size:50px;
+	top:38%;
+	left:33%;
+	position:fixed}
+	
+a:hover, a:active {
+	text-decoration:none;
+	color: #C00;
+	font-size:50px;
+	position:fixed}
+
+</style>
+
+<script>
+function newWindow() {
+    winPop = [
+	open(
+            'manifesto_book.html',
+            'window42',
+            'scrollbars=no,width=1100,height=650,left=270,top=150'
+        ),
+        open(
+            'http://en.wikipedia.org/wiki/Mao_Zedong',
+            'window41',
+            'scrollbars=no,width=600,height=400,left=50,top=70'
+        ),
+        open(
+            'redbook.html',
+            'window43',
+            'scrollbars=no,width=340,height=380,left=950,top=550'
+       ),
+	   ];}
+	   
+</script>
+
+</head>
+
+<body>
+
+<a href='' onclick='newWindow()'><p id="mao">MAO ZEDONG</p></a>
+</body>
+</html>

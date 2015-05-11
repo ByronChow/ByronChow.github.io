@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+
+<style>
+@charset "UTF-8";
+body {
+	font-family: Helvetica; san-serif;
+	background:#190121;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+ #container {
+	width: 700px;  
+	height:450px;
+	background: #FFFFFF;
+	top:50px;
+	margin: 50px auto; 
+	font-size:14px;
+	
+	text-align: left; 
+}
+#mainContent {
+	padding: 60px;
+	min-height:600px;
+	line-height:25px
+}
+
+img {border:0px}
+
+#mainContent a:link, #mainContent a:visited {
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	background:#000000;
+	padding:15px;
+	font-weight:900;
+	line-height:45px;
+	}
+#mainContent a:hover, #mainContent a:active {background:#333333;}
+
+
+#blanket {
+   background-color:#111;
+   opacity: 0.55;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+#important{ 
+	width:380px;
+	height:100px;
+	color:#fff;
+	font-size:43px;
+	font-weight:800;
+	z-index: 900;
+	position:relative;
+	top:-55px;
+	left:90px;
+}
+#body{ 
+	width:380px;
+	height:100px;
+	color:#fff;
+	font-size:13px;
+	font-weight:300;
+	z-index: 900;
+	position:relative;
+	top:-150px;
+	left:90px
+}
+
+
+#popUpDiv {
+	position:absolute;
+	background:#603;
+	width:420px;
+	height:160px;
+	z-index: 9002;
+}
+
+#popUpDiv a {position:relative; top:20px; left:20px}
+</style>
+
+<script type="text/javascript" src="css-pop.js"></script>
+</head>
+<body   onload="popup('popUpDiv')">
+
+<div id="container">
+
+  <div id="mainContent">
+<h1>Library as Hyperlinks</h1>  
+<p>Opening its doors in 1838, the Athenaeum Library, located on Benefit Street is one of the oldest libraries in the United States. The library is stocked with books, magazines and newspapers which offer a multitude of different viewpoints on any singular subject matter. I have created a mock experience via a network of contained hyperlinks in order to emulate the choices presented to visitors (in terms of desired information depth) upon entering a library. The user will be dropped into one of two possible starting points: either the Communist Manifesto by Karl Marx and Fredrick Engels or The Prince by Niccolo Machiavelli. All links are clickable, draggable and provide some form of user interaction. </p>
+    <br>
+    <a href="manifesto_home.html">ENTER</a>
+    
+    
+<!--POPUP-->    
+    
+    <div id="blanket" style="display:none;"></div>
+	<div id="popUpDiv" style="display:none;">
+    
+    	<a href="#" onclick="popup('popUpDiv')" >X</a>
+        <p id="important">
+        IMPORTANT :
+        </p>
+        <p id="body">
+        ad and pop-up blockers must be turned off
+        <p>
+        
+</div>	
+</div>
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
